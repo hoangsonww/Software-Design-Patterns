@@ -41,6 +41,8 @@ The `Inheritance` directory provides an introductory look at how inheritance org
 
 **Key Insights**: This directory demonstrates the strength of inheritance by organizing shared traits in a superclass and extending it into specific subclasses for different ingredients. The hierarchical structure allows easy reuse of properties and behaviors, keeping the code organized and modular.
 
+**Link to Directory**: [Inheritance](Inheritance)
+
 ## 2. `Adventure-Game` Directory
 
 **Pattern**: **Composition & Aggregation Design Patterns**
@@ -55,6 +57,8 @@ The `Adventure-Game` directory showcases the composition pattern in a modular ga
 
 **Key Insights**: Composition allows for modular and reusable code by assembling objects rather than inheriting properties. This pattern is ideal for games, where components like players, maps, and items must work together flexibly without rigid hierarchical constraints.
 
+**Link to Directory**: [Adventure-Game](Adventure-Game)
+
 ## 3. `Exceptions` Directory
 
 **Pattern**: **Exception Handling**
@@ -68,6 +72,7 @@ The `Exceptions` directory provides structured exercises to practice exception h
 
 **Key Insights**: Exception handling patterns enhance code reliability by managing and containing errors, ensuring that unexpected events don’t crash the program. This directory highlights how exceptions can be anticipated, caught, and managed in layered ways to create robust software.
 
+**Link to Directory**: [Exceptions](Exceptions)
 
 ## 4. `Iterators` Directory
 
@@ -83,6 +88,8 @@ The `Iterators` directory demonstrates how the iterator design pattern enables c
 - **`SnakeOrderAcrossPoolsIterator`**: Interleaves drivers from multiple pools in a “snake” order to balance selection.
 
 **Key Insights**: The iterator pattern simplifies complex traversal logic by encapsulating it within iterator classes, allowing for flexible, readable, and reusable data access methods without altering the underlying collections.
+
+**Link to Directory**: [Iterators](Iterator)
 
 ## 5. `Decorators` Directory
 
@@ -101,6 +108,8 @@ The `Decorators` directory leverages the decorator design pattern to incremental
   - **`ZoomDecorator`**: Scales the image by a specified multiplier.
 
 **Key Insights**: The decorator pattern is particularly effective in scenarios where dynamic, layered modifications are needed. It allows for flexible and modular visual transformations, where each effect builds on the previous one without requiring changes to the base image class.
+
+**Link to Directory**: [Decorators](Decorators)
 
 ## 6. `Singleton-Multiton-Factory` Directory
 
@@ -123,6 +132,8 @@ The `Singleton-Multiton-Factory` directory showcases creational design patterns 
 - **Centralization**: Using factory methods to simplify pizza type creation and management.
 
 **Key Insights**: The Singleton, Multiton, and Factory Method patterns provide a structured approach to managing ingredient instances and creating complex pizza objects. By centralizing ingredient control and automating pizza creation, this directory demonstrates how creational patterns can streamline system design and enhance code maintainability.
+
+**Link to Directory**: [Singleton-Multiton-Factory](Singleton-Multiton-Factory)
 
 ## Summary of Design Patterns and Applications
 
