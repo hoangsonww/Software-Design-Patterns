@@ -14,16 +14,17 @@ Each directory includes fully implemented code to demonstrate these patterns in 
 
 ## Table of Contents
 
-1. [Inheritance](#1-inheritance-directory)
-2. [Composition & Aggregation](#2-adventure-game-directory)
-3. [Exception Handling](#3-exceptions-directory)
-4. [Iterator Design Pattern](#4-iterators-directory)
-5. [Decorator Design Pattern](#5-decorators-directory)
-6. [Singleton, Multiton, and Factory Method](#6-singleton-multiton-factory-directory)
-7. [Summary of Design Patterns and Applications](#summary-of-design-patterns-and-applications)
-8. [Additional Resources](#additional-resources)
-9. [Conclusion](#conclusion)
-10. [Creator & Attributions](#creator--attributions)
+- [`Inheritance` Directory](#1-inheritance-directory)
+- [`Adventure-Game` Directory](#2-adventure-game-directory)
+- [`Exceptions` Directory](#3-exceptions-directory)
+- [`Iterators` Directory](#4-iterators-directory)
+- [`Decorators` Directory](#5-decorators-directory)
+- [`Singleton-Multiton-Factory` Directory](#6-singleton-multiton-factory-directory)
+- [Summary of Design Patterns and Applications](#summary-of-design-patterns-and-applications)
+- [Build Tool](#build-tool)
+- [Additional Resources](#additional-resources)
+- [Conclusion](#conclusion)
+- [Creator & Attributions](#creator--attributions)
 
 ## 1. `Inheritance` Directory
 
@@ -135,6 +136,20 @@ This repository provides a practical guide to core design patterns, each applied
 - **Decorator**: Incrementally adding visual layers and effects to images for modular image processing.
 
 Each pattern is implemented with realistic examples and scenarios, illustrating not only how to apply these patterns but also why they matter in building scalable, maintainable, and effective software. Whether you’re looking to improve your understanding of object-oriented programming or seeking examples of design patterns in action, this repository offers a comprehensive, hands-on guide to mastering design patterns in Java.
+
+## Build Tool
+
+All subdirectories use Maven as the build tool. To compile and run the code, navigate to the desired directory and use the following commands:
+
+- **Compile**: `mvn compile`
+- **Run**: `mvn exec:java`
+- **Test**: `mvn test`
+- **Package**: `mvn package`
+- **Clean**: `mvn clean`
+
+These commands will help you build, test, and run the code in each directory, allowing you to explore the design patterns and their applications in detail.
+
+Alternatively, if you are using an IDE like IntelliJ IDEA or Eclipse, you can import the project as a Maven project and run the code directly from the IDE. Just be sure to configure the project settings to use Maven for building and running the code.
 
 ## Additional Resources
 
