@@ -166,6 +166,8 @@ Alternatively, if you are using an IDE like IntelliJ IDEA or Eclipse, you can im
 
 For more in-depth explanations, code snippets, and practical examples of design patterns, check out the individual directories in this repository. Each directory provides detailed insights into the pattern’s application, components, and design considerations, making it a valuable resource for learning and mastering design patterns in Java.
 
+Also, be sure to check out this detailed document (README) in the `Design-Patterns-Info` directory to learn more about Design Patterns and their applications in software development: [Design-Patterns-Info](Design-Patterns-Info/README.md)
+
 Additionally, I also recommend the `Gang of Four (GoF)` book, _Design Patterns: Elements of Reusable Object-Oriented Software,_ as an essential reference for understanding design patterns and their applications in software development. The book offers comprehensive insights into the principles, benefits, and implementation strategies of various design patterns, making it a foundational resource for software engineers, architects, and designers.
 
 ## Conclusion
