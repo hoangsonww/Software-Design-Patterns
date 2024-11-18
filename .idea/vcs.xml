@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Model-View-Controllers/Game-2048-JavaFX" vcs="Git" />
   </component>
 </project>
