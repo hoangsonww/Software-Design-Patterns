@@ -9,6 +9,8 @@ The design patterns covered include:
 4. **Iterators** - Custom iterators in a ride-sharing context.
 5. **Decorators** - Visual modifications to digital images using the decorator pattern.
 6. **Singleton, Multiton, and Factory Method** - Designing a pizza ordering system with creational patterns.
+7. **Observer** - Event-driven store notifications for customers.
+8. **Model-View-Controller (MVC)** - Building a simple 2048 game with MVC architecture.
 
 Each directory includes fully implemented code to demonstrate these patterns in realistic scenarios. Below is a comprehensive breakdown of each directory, detailing the design patterns, core components, and practical applications.
 
@@ -20,6 +22,8 @@ Each directory includes fully implemented code to demonstrate these patterns in 
 - [`Iterators` Directory](#4-iterators-directory)
 - [`Decorators` Directory](#5-decorators-directory)
 - [`Singleton-Multiton-Factory` Directory](#6-singleton-multiton-factory-directory)
+- [`Observers` Directory](#7-observers-directory)
+- [`Model-View-Controller` Directory](#8-model-view-controller-directory)
 - [Summary of Design Patterns and Applications](#summary-of-design-patterns-and-applications)
 - [Build Tool](#build-tool)
 - [Additional Resources](#additional-resources)
@@ -134,6 +138,43 @@ The `Singleton-Multiton-Factory` directory showcases creational design patterns 
 **Key Insights**: The Singleton, Multiton, and Factory Method patterns provide a structured approach to managing ingredient instances and creating complex pizza objects. By centralizing ingredient control and automating pizza creation, this directory demonstrates how creational patterns can streamline system design and enhance code maintainability.
 
 **Link to Directory**: [Singleton-Multiton-Factory](Singleton-Multiton-Factory)
+
+## 7. `Observers` Directory
+
+**Pattern**: **Observer Design Pattern**
+
+**Context**: Implementing a store with events like discounts and promotions.
+
+The `Observers` directory explores the observer design pattern in the context of a store that notifies customers of order status changes and promotions. By defining observers like **Customer** and **Receipt** that listen for events from the **Store**, this directory demonstrates how to implement event-driven systems with decoupled components.
+
+**Components**:
+- **`Customer`**: Represents a customer placing an order.
+- **`Store`**: Manages customer orders and notifies observers of order status changes.
+- **`Product`**: Represents a pizza product with details like name, price, and ingredients.
+- **`Receipt`**: Contains order details and serves as a receipt for customers.
+- **`ReceiptItem`**: Represents an item in the order receipt.
+- **`SaleSpawner`**: Simulates sales events like discounts and promotions.
+
+**Key Insights**: The observer pattern decouples event producers (subjects) from consumers (observers), allowing for flexible, scalable systems where components can react to changes without direct dependencies. This directory illustrates how to implement event-driven architectures in Java applications.
+
+**Link to Directory**: [Observers](Observers)
+
+## 8. `Model-View-Controller` Directory
+
+**Pattern**: **Model-View-Controller (MVC) Design Pattern**
+
+**Context**: Building a simple 2048 game with MVC architecture.
+
+The `Model-View-Controller` directory demonstrates the MVC design pattern in a game development context. By separating the game logic (model), user interface (view), and user input (controller), this directory showcases how to create modular, maintainable applications with clear separation of concerns.
+
+**Components**:
+- **Model (Game2048)**: Manages the game state, rules, and logic.
+- **View (Main)**: Renders the game interface and updates the display.
+- **Controller (GameController)**: Handles user input and updates the model and view.
+
+**Key Insights**: The MVC pattern divides the game into distinct components, making it easier to manage, test, and extend. By separating concerns and defining clear interactions between components, this directory highlights the benefits of using the MVC pattern in software development.
+
+**Link to Directory**: [Model-View-Controller](Model-View-Controllers)
 
 ## Summary of Design Patterns and Applications
 
