@@ -1,0 +1,26 @@
+{
+  "name": "Java Maven Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/java:1-17",
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {
+      "version": "latest"
+    }
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-maven",
+    "redhat.vscode-yaml"
+  ],
+  "postCreateCommand": "mvn clean install",
+  "remoteUser": "vscode",
+  "mounts": [
+    "source=/home/vscode/.m2,target=/root/.m2,type=bind"
+  ],
+  "forwardPorts": [8080, 5005],
+  "containerEnv": {
+    "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk"
+  }
+}
